@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.navbar-nav{ 
+    margin-left: 1rem;
+  
+}
+.logo-img{
+   position: relative;
+   left: 3px;
+}
+
+.navbar-nav >a{
+    display: flex;
+    font-family: Arial;
+ font-size: 15px;
+ font-family: "Noto Serif", serif;
+ font-weight: 700;
+color: black;
+transition: 0.3s ease-in-out;
+}
+
+.navbar-nav >a:hover{
+color: green;
+
+
+
+}
+
+.container-fluid >img{
+    margin-left: 1vw;
+}
+
+#anshu{
+    color: darkorange;
+}
+
+/* heroimg */
+
+
+.hero{
+    width: 100%;
+    height: 350px;
+
+    background-image: url(assets/HERO.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.tap{
+    height: 50px;
+    display: flex;
+    align-items: center;
+  justify-content:space-around;
+
+  background-color: rgb(235, 217, 107);
+
+}
+.tap-img img{
+ width: 3rem; 
+margin-left: 20px;
+
+}
+
+
+
+.product >span{
+    color: black;
+ position: relative;
+ left: 20px;
+ font-weight: 800;
+ font-family: sans-serif;
+ top: 20px;
+ border-bottom: 2px solid orange;
+ 
+}
+
+.product >span:hover{
+    color: orangered;
+    transition: 1.5 ease-in-out;
+}
+
+.products-imges{
+margin-top: 40px;
+flex-wrap: wrap;
+justify-content: space-evenly;
+display: flex;
+
+gap: 25px;
+}
+
+.products-imges >video{
+    width: 10rem;
+    border-radius: 8px;
+
+
+}
+
+
+/* product iteam */
+
+
+
+
+.item span{
+position: relative;
+font-weight: 800;
+top: 20px;
+left: 20px;
+border-bottom: 2px solid orange;
+}
+
+
+.item span:hover{
+    color: orangered;
+    transition: 0.5s ease-in-out;
+}
+
+.items{
+    margin-top: 50px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.items img{
+    width: 170px;
+    height: 250px;
+    border-radius: 3px;
+    transition: all 0.7s ease-in-out;
+}
+
+
+
+.items img:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+
+/* product iteam end*/
+
+
+
+
+/* 
+testmoraila */
+.water img{
+    width: 100%;
+    height: 48vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+
+}
+
+
+
+
+/* testmoraila end */
+
+
+@media screen and (max-width: 991px) {
+  
+   .hero{
+    background-size: cover;
+    height: 200px;
+    background-repeat: no-repeat;
+   }
+  
+.products-imges >video{
+    width: 10rem;
+    border-radius: 5px;
+ 
+  
+}
+
+
+  }
+
+
+
+
+
+  .back{
+    top: 30px;
+    position: relative;
+text-align: center;
+    height: 200px;
+  background-color: black;
+    /* background-color: rgb(235, 217, 107); */
+  }
+
+  .back P{
+position: relative;
+top: 30px;
+color: white;
+font-family: "Noto Serif", serif;
+font-weight: 800;
+
+  }
+  .back input{
+    position: relative;
+    top: 30px;
+
+    text-align: center;
+    border: none;
+    left: 10px;
+    border-radius: 4px;
+    width: 14rem;
+    height: 35px;
+  }
+ .back button{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    left: 25px;
+    color: white;
+    background-color: black;
+ }
+ .back input::placeholder{
+ 
+ }
